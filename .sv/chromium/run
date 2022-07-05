@@ -43,7 +43,6 @@ exec chpst -u $USER chromium-browser \
     --verbose \
     --no-touch-pinch \
     --kiosk \
-    --disable-gpu \
     --remote-debugging-port=9222 \
     --disable-infobars \
     --disable-ntp-popular-sites \
